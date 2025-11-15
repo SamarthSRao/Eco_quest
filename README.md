@@ -2,7 +2,7 @@
 
 A full-stack web application that encourages sustainable living through activity tracking, points-based rewards, and milestone achievements. Users can log various eco-friendly activities, earn points, and compete on leaderboards.
 
-## 🌟 Features
+##  Features
 
 - **User Authentication**: Secure registration and login with JWT tokens
 - **Activity Tracking**: Log various eco-friendly activities (cycling, running, walking, public transport, recycling, tree planting, energy saving)
@@ -14,7 +14,7 @@ A full-stack web application that encourages sustainable living through activity
 - **Weather Integration**: Current temperature and weather forecast data
 - **Responsive Design**: Modern UI built with React and Tailwind CSS
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (Node.js + Express)
 - **Database**: MongoDB with Mongoose ODM
@@ -29,7 +29,7 @@ A full-stack web application that encourages sustainable living through activity
 - **API Integration**: Axios for HTTP requests
 - **Build Tool**: Webpack for bundling
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── src/                          # Frontend React application
@@ -60,7 +60,7 @@ A full-stack web application that encourages sustainable living through activity
 └── dist/                        # Built application files
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -104,14 +104,14 @@ A full-stack web application that encourages sustainable living through activity
 6. **Access the application**
    Open your browser and navigate to `http://localhost:3000`
 
-## 🔧 Available Scripts
+##  Available Scripts
 
 - `npm start` - Start the production server
 - `npm run dev` - Start development server with hot reload
 - `npm run build` - Build the frontend for production
 - `npm test` - Run tests (currently not implemented)
 
-## 📊 Activity Types & Points System
+##  Activity Types & Points System
 
 | Activity Type | Points Calculation | Description |
 |---------------|-------------------|-------------|
@@ -123,7 +123,7 @@ A full-stack web application that encourages sustainable living through activity
 | Tree Planting | 100 points/tree | Direct environmental impact |
 | Energy Saving | 25 points/action | Reduced energy consumption |
 
-## 🏆 Milestone System
+##  Milestone System
 
 Users progress through environmental milestones:
 - **First Steps** (100 points) - Getting started with eco-friendly habits
@@ -132,7 +132,7 @@ Users progress through environmental milestones:
 - **Environmental Hero** (2,500 points) - Leading by example
 - **Planet Saver** (5,000 points) - Maximum environmental contribution
 
-## 🔐 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -154,7 +154,7 @@ Users progress through environmental milestones:
 - `GET /api/weather` - Get weather forecast
 - `GET /api/temperature?city=<city>` - Get current temperature
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Backend
 - **Node.js** - JavaScript runtime
@@ -178,7 +178,7 @@ Users progress through environmental milestones:
 - **ESLint** - Code linting
 - **PostCSS** - CSS processing
 
-## 📚 Documentation
+##  Documentation
 
 Comprehensive documentation is available in the `documentation/` folder:
 
@@ -187,7 +187,7 @@ Comprehensive documentation is available in the `documentation/` folder:
 - **[API Reference](documentation/API_REFERENCE.md)** - Complete API documentation
 - **[API Documentation](documentation/API_DOCUMENTATION.md)** - Original API documentation
 
-## 🔒 Security Features
+##  Security Features
 
 - Password hashing with bcrypt
 - JWT token-based authentication
@@ -196,7 +196,7 @@ Comprehensive documentation is available in the `documentation/` folder:
 - CORS configuration
 - Error handling without sensitive data exposure
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The application is fully responsive and works on:
 - Desktop computers
@@ -204,7 +204,7 @@ The application is fully responsive and works on:
 - Mobile phones
 - Various screen sizes and orientations
 
-## 🚀 Deployment
+##  Deployment
 
 ### Environment Variables for Production
 ```env
@@ -220,7 +220,7 @@ npm run build
 npm start
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -228,18 +228,18 @@ npm start
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the ISC License.
 
-## 🆘 Support
+##  Support
 
 If you encounter any issues or have questions:
 1. Check the existing issues in the repository
 2. Create a new issue with detailed information
 3. Include error messages and steps to reproduce
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Social features (friend connections, activity sharing)
 - [ ] Mobile app (React Native)
@@ -254,4 +254,3 @@ If you encounter any issues or have questions:
 
 ---
 
-**Built with ❤️ for a sustainable future**
